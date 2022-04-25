@@ -3,8 +3,10 @@
 	"compilerOptions": {
 		"outDir": "build", // 자바스크립트 파일이 생성될 디렉토리
 		"target": "ES6", // 어떤 버전의 자바스크립트로 컴파일 할지 결정
-		"lib": ["ES6", "DOM"], // 런타임 환경을 정의 , 타입스크립트가 어디서 동작할것인지 알려준다. ex) dom -> 브라우저
+		"lib": ["ES6"], // 런타임 환경을 정의 , 타입스크립트가 어디서 동작할것인지 알려준다. ex) dom -> 브라우저
 		"strict": true,
-		"allowJs": true
+		// "allowJs": true,
+		"esModuleInterop": true,
+		"module": "CommonJS"
 	}
 }

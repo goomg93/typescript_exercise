@@ -3,7 +3,9 @@
 	"version": "1.0.0",
 	"description": "",
 	"scripts": {
-		"build": "tsc"
+		"build": "tsc",
+		"start": "node build/block.js",
+		"dev": "nodemon --exec ts-node src/block.ts"
 	},
 	"repository": {
 		"type": "git",
@@ -17,6 +19,10 @@
 	},
 	"homepage": "https://github.com/goomg93/typescript_exercise#readme",
 	"devDependencies": {
+		"ts-node": "^10.7.0",
 		"typescript": "^4.6.3"
+	},
+	"dependencies": {
+		"nodemon": "^2.0.15"
 	}
 }
