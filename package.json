@@ -1,0 +1,22 @@
+{
+	"name": "typescript",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"build": "tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/goomg93/typescript_exercise.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/goomg93/typescript_exercise/issues"
+	},
+	"homepage": "https://github.com/goomg93/typescript_exercise#readme",
+	"devDependencies": {
+		"typescript": "^4.6.3"
+	}
+}
